@@ -1,0 +1,5 @@
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                  Buffalo-G-BBEA dc:fb:02:09:bb:e0 -89  11      Y  -- WPA2(PSK/AES/AES) 
+                   FS030W_P90640 00:23:b1:97:a0:b2 -90  8       Y  JP WPA2(PSK/AES/AES) 
+                 rs500k-648ed9-1 2c:ff:65:64:8e:79 -91  11      Y  JP WPA2(PSK/AES/AES) 
+                  4CE676459E30-1 4c:e6:76:45:9e:30 -90  11      Y  -- WPA(PSK/AES/AES) 

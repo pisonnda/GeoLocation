@@ -1,0 +1,11 @@
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 SPWN_H36_5B4821 74:c1:4f:5b:48:21 -69  5       Y  -- WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+            FREE_Wi-Fi_and_TOKYO 20:a6:cd:21:83:e0 -53  11      Y  -- NONE
+                        au_Wi-Fi 24:79:2a:e3:df:5c -77  52      Y  JP WPA2(PSK/AES/AES) 
+                    0002softbank 9c:2a:70:ac:8f:aa -87  112,-1  Y  JP WPA(802.1x/AES/AES) WPA2(802.1x/AES/AES) 
+                    0001softbank 9c:2a:70:ac:8f:a9 -86  112,-1  Y  JP NONE
+                         SWS1day 9c:2a:70:ac:8f:a8 -85  112,-1  Y  JP NONE
+                     kipolalee88 06:8d:cb:71:8e:08 -89  112     Y  JP WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                     kipolalee47 0e:8d:cb:71:8e:08 -90  112     Y  JP WPA(PSK/AES,TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                  Buffalo-A-AEA0 34:3d:c4:e3:ae:a3 -89  100     Y  JP WPA2(PSK/AES/AES) 
+              0001_Secured_Wi-Fi d8:c7:c8:fb:3d:bd -69  60,+1   Y  -- WPA2(802.1x/AES/AES) 

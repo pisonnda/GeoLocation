@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9af5ff43605b5a0993fd91c30892b49e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9af5ff43605b5a0993fd91c30892b49e" ></div>
+        
+</body>
+<script>    
+    
+            var map_9af5ff43605b5a0993fd91c30892b49e = L.map(
+                "map_9af5ff43605b5a0993fd91c30892b49e",
+                {
+                    center: [35.736489, 139.746875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_caf3c2764c8251757c4bb09c3edb0e7b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9af5ff43605b5a0993fd91c30892b49e);
+        
+    
+            var marker_68f3a5d82e9b816460b7c49d3ca8266c = L.marker(
+                [35.736489, 139.746875],
+                {}
+            ).addTo(map_9af5ff43605b5a0993fd91c30892b49e);
+        
+    
+        var popup_597a751cff2c96c005b715852be749fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_803e9edbc1096a5ed447fee79ac2034e = $(`<div id="html_803e9edbc1096a5ed447fee79ac2034e" style="width: 100.0%; height: 100.0%;">駒込</div>`)[0];
+            popup_597a751cff2c96c005b715852be749fb.setContent(html_803e9edbc1096a5ed447fee79ac2034e);
+        
+
+        marker_68f3a5d82e9b816460b7c49d3ca8266c.bindPopup(popup_597a751cff2c96c005b715852be749fb)
+        ;
+
+        
+    
+    
+            var marker_58ad7c56de7363b8c76d19373bf67188 = L.marker(
+                [35.727772, 139.770987],
+                {}
+            ).addTo(map_9af5ff43605b5a0993fd91c30892b49e);
+        
+    
+        var popup_519ed0be733f9e887d9b40bec6e4c020 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66481da9b897010b650647c0644ea266 = $(`<div id="html_66481da9b897010b650647c0644ea266" style="width: 100.0%; height: 100.0%;">日暮里</div>`)[0];
+            popup_519ed0be733f9e887d9b40bec6e4c020.setContent(html_66481da9b897010b650647c0644ea266);
+        
+
+        marker_58ad7c56de7363b8c76d19373bf67188.bindPopup(popup_519ed0be733f9e887d9b40bec6e4c020)
+        ;
+
+        
+    
+    
+            var marker_0ff2fe0395ae28264fd7a7863a4e5401 = L.marker(
+                [35.728926, 139.71038],
+                {}
+            ).addTo(map_9af5ff43605b5a0993fd91c30892b49e);
+        
+    
+        var popup_0a21724656fc7c1f5d1e41b59fbc73c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1f72d71a9cfbbd2d730605c79d15de7 = $(`<div id="html_f1f72d71a9cfbbd2d730605c79d15de7" style="width: 100.0%; height: 100.0%;">池袋</div>`)[0];
+            popup_0a21724656fc7c1f5d1e41b59fbc73c5.setContent(html_f1f72d71a9cfbbd2d730605c79d15de7);
+        
+
+        marker_0ff2fe0395ae28264fd7a7863a4e5401.bindPopup(popup_0a21724656fc7c1f5d1e41b59fbc73c5)
+        ;
+
+        
+    
+    
+            var marker_4aa312eaf25ceed602ec3a5efdbf4f07 = L.marker(
+                [35.720495, 139.778837],
+                {}
+            ).addTo(map_9af5ff43605b5a0993fd91c30892b49e);
+        
+    
+        var popup_0c34dffac1a4202e1a365b09cd16be1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ecdb331136798e20665b0571a3ea4a1 = $(`<div id="html_5ecdb331136798e20665b0571a3ea4a1" style="width: 100.0%; height: 100.0%;">鶯谷</div>`)[0];
+            popup_0c34dffac1a4202e1a365b09cd16be1d.setContent(html_5ecdb331136798e20665b0571a3ea4a1);
+        
+
+        marker_4aa312eaf25ceed602ec3a5efdbf4f07.bindPopup(popup_0c34dffac1a4202e1a365b09cd16be1d)
+        ;
+
+        
+    
+</script>
