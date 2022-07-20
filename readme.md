@@ -1,4 +1,4 @@
-####2022年  7月 17日 日曜日 15:54:30 JST
+####2022年  7月 21日 木曜日 03:07:04 JST
 ####Get location from 2 Wifi'MAC Address (+Mapping)
 ####Pisonnda 
 ####Version 2.0
