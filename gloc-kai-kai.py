@@ -73,7 +73,7 @@ def main():
 #Get location Function
 def getlocation(mac1, rssi1, mac2, rssi2):
 		#POST URL
-		url = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCeoRn12KZ3-WXXcVRhSnLVy2jdPF1H1Yw"
+		url = "https://www.googleapis.com/geolocation/v1/geolocate?key={your_API_key}"
 		#JSON
 		json_data = {
 		"considerIp": "false",

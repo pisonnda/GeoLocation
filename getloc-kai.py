@@ -62,7 +62,7 @@ def findos():
 #Get location Function
 def getlocation(mac1, mac2):
     #POST URL
-    url = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDUVTh4ZEBb2m_LmOa2OSa2M8Ilb08pWBU"
+    url = "https://www.googleapis.com/geolocation/v1/geolocate?key={your_google_API}"
     #JSON
     json_data = {
     "considerIp": "false",
